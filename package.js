@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom('2.7.3');
+    api.versionsFrom('2.8.0');
     api.use([
         'ecmascript',
         'reactive-var',
