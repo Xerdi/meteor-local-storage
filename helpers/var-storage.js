@@ -1,5 +1,5 @@
-import {LocalStorage} from "./local-storage";
 import {ReactiveVar} from "meteor/reactive-var";
+import {LocalStorage} from "./local-storage";
 
 export class LocalVarStorage extends LocalStorage {
 

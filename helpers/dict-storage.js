@@ -1,5 +1,5 @@
 import {ReactiveDict} from 'meteor/reactive-dict';
-import LocalStorage from "./local-storage";
+import {LocalStorage} from "./local-storage";
 
 export class LocalDictStorage extends LocalStorage {
 
