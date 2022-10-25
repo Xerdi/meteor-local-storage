@@ -1,6 +1,6 @@
 Package.describe({
     name: 'xerdi:local-storage',
-    version: '0.0.2',
+    version: '0.0.3',
     summary: 'Local storage helpers for meteor',
     git: 'https://github.com/Xerdi/meteor-local-storage.git',
     documentation: 'README.md'
