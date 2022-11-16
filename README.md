@@ -35,5 +35,6 @@ Both `LocalVarStorage` and `LocalDictStorage` extend from `LocalStorage`.
  - `constructor` Takes a storage key and an object with default values.
  - `get()` Gets the stored values.
  - `set(keyOrObject, value)` Either gets an object for setting all values or a key and value to set.
+ - `unset(key)` Only works for `LocalDictStorage` and removes the given key from the dictionary.
  - `setDefault()` Sets all values to their default value.
  - `clear()` Wipes the stored data.

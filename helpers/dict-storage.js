@@ -31,6 +31,11 @@ export class LocalDictStorage extends LocalStorage {
         localStorage.setItem(this.item_name, JSON.stringify(this.getCache().all()));
     }
 
+    unset(key) {
+        this.getCache()['delete'](key);
+        localStorage.setItem(this.item_name, JSON.stringify(this.getCache().all()));
+    }
+
     setDefault() {
         super.setDefault();
         this.getCache().setDefault(this.defaultValue);
